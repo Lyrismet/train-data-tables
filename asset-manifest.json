@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/train-data-tables/static/css/main.5b23605d.css",
+    "main.js": "/train-data-tables/static/js/main.28172a63.js",
+    "index.html": "/train-data-tables/index.html",
+    "main.5b23605d.css.map": "/train-data-tables/static/css/main.5b23605d.css.map",
+    "main.28172a63.js.map": "/train-data-tables/static/js/main.28172a63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b23605d.css",
+    "static/js/main.28172a63.js"
+  ]
+}
