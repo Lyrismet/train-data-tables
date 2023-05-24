@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent; }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+
+:focus, :active, a:focus, a:active {
+    outline: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block; }
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    font-size: 100%;
+    line-height: 1;
+    -webkit-text-size-adjust: none; }
+
+input, button, textarea, select {
+
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0; }
+
+input:invalid {
+    box-shadow: none; }
+
+input::-ms-clear {
+    display: none; }
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+
+button, .button, input[type="button"], input[type=submit] {
+    cursor: pointer; }
+
+button[disabled], input[disabled] {
+    cursor: default; }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit; }
+
+img {
+    vertical-align: top;
+    max-width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal; }
+
+ol, ul {
+    list-style: none; }
+
+
+$mono-title-font: 700 2em 'JetBrains Mono', monospace;
+$mono-subtitle-font: 600 1.1em 'JetBrains Mono', monospace;
+
+.tables-container {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    h1{
+        font: $mono-title-font;
+    }
+    h2{
+        font: $mono-subtitle-font;
+    }
+}
+.speeds-table, .trains-table {
+    width: 50%;
+    padding: 20px;
+    overflow: auto;
+    max-height: 85vh;
+}
+.trains-table{
+    text-align: left;
+}
+.speeds-table{
+
+}
+table{
+    border-collapse: collapse;
+}
+thead, tbody{
+    border: 1px solid black;
+    text-align: center;
+}
+tr, th, td{
+    border: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: #eaeaea;
+}
+tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+tr{
+    padding: 1px;
+}
+td{
+    padding: 10px;
+}
+th{
+    padding: 10px;
+
+}
+button{
+    padding: 1.2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: #ffd67f;
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    font: $mono-subtitle-font;
+}
+button:active{
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    transform: translateY(3px);
+}
+input{
+    min-width: 40px;
+    padding: 5px;
+    text-align: right ;
+    background: #d1d1d1;
+    border-radius: 10px;
+}
