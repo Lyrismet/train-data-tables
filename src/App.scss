@@ -81,8 +81,10 @@ $mono-subtitle-font: 600 1.1em 'JetBrains Mono', monospace;
     flex-direction: row;
     h1{
         font: $mono-title-font;
+        margin-bottom: 0.6em;
     }
     h2{
+        margin-bottom: 0.4em;
         font: $mono-subtitle-font;
     }
 }
@@ -95,18 +97,18 @@ $mono-subtitle-font: 600 1.1em 'JetBrains Mono', monospace;
 .trains-table{
     text-align: left;
 }
-.speeds-table{
-
+.train-item{
+    margin-top: 15px;
 }
 table{
     border-collapse: collapse;
 }
 thead, tbody{
-    border: 1px solid black;
+    border: 1px solid #505050;
     text-align: center;
 }
 tr, th, td{
-    border: 1px solid black;
+    border: 1px solid #505050;
 }
 tr:nth-child(even) {
     background-color: #eaeaea;

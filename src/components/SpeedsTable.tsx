@@ -21,7 +21,7 @@ const SpeedLimitTable: React.FC<SpeedLimitTableProps> = ({ speedLimits, onSpeedL
         <table>
             <thead>
             <tr>
-                <th>Название</th>
+                <th>Номер</th>
                 <th>Скоростное ограничение</th>
             </tr>
             </thead>
