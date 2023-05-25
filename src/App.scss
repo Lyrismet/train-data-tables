@@ -100,9 +100,10 @@ $mono-subtitle-font: 600 1.1em 'JetBrains Mono', monospace;
     overflow: auto;
     max-height: 85vh;
 }
-.trains-table{
+.trains-table td{
     text-align: left;
 }
+
 .train-item{
     margin-top: 15px;
 }
@@ -153,4 +154,27 @@ input{
     text-align: right ;
     background: #d1d1d1;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .tables-container{
+        flex-direction: column;
+        h2{
+            width: 50%;
+        }
+    }
+    .speeds-table, .trains-table{
+        width: 100%;
+        overflow: visible;
+        max-height: none;
+    }
+    input[type="number"]{
+        width: 40px;
+        text-align: center;
+    }
+    button{
+        position: static;
+        width: 90vw;
+        margin: 0 auto 1.2em auto;
+    }
 }
